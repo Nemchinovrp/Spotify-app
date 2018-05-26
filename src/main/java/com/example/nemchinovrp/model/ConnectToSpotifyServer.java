@@ -1,4 +1,4 @@
-package com.example.nemchinovrp.main;
+package com.example.nemchinovrp.model;
 
 import com.neovisionaries.i18n.CountryCode;
 import com.wrapper.spotify.SpotifyApi;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-public class Main {
+public class ConnectToSpotifyServer {
     private static final String clientId = "b2d16acc53824c18859e5f889f9ad544";
     private static final String clientSecret = "30a4b709b3a34972ac8475433355ea93";
     private static final String id = "5zT1JLIj9E57p3e1rFm9Uq";

@@ -11,7 +11,6 @@ import com.wrapper.spotify.requests.data.search.simplified.SearchTracksRequest;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import static com.example.nemchinovrp.connect.ConnectToSpotifyServer.clientCredentials;
@@ -50,7 +49,7 @@ public class Main {
             System.out.println("Total: " + trackPaging.getTotal());
             Track[] tracks = trackPaging.getItems();
             List<Track> trackList = Arrays.asList(tracks);
-            for(Track track : trackList) {
+            for (Track track : trackList) {
                 System.out.println(track.getName());
             }
 
